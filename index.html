@@ -11,14 +11,21 @@
     <header></header>
     <main>
         <section class="week">
+            <h2>Add a New Meal</h2>
             <form id="mealForm">
                 <label for="title">Meal Title:</label>
                 <input type="text" id="title" name="title" required>
+                <select name="" id="">
+                    <option value="">Select type of Meal</option>
+                    <option value="">Lunch</option>
+                    <option value="">Dinner</option>
+                </select>
                 <button type="submit">Add Meal</button>
             </form>
 
       
            <button class="yellow-bg js-btn">Create Meal Plan</button>
+           <ul class="js-thisWeekMeals"></ul>
         </section>
     </main>
     <footer></footer>
