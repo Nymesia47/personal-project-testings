@@ -11,55 +11,13 @@
     <header></header>
     <main>
         <section class="week">
-           <table>
-            <caption>Meal Plan for this week</caption>
-            <thead>
-                <tr>
-                    <th scope="col" class="pink-bg">Meal</th>
-                    <th scope="col" class="peach-bg">Monday</th>
-                    <th scope="col" class="orange-bg">Tuesday</th>
-                    <th scope="col" class="blue-bg">Wednesday</th>
-                    <th scope="col" class="pink-bg">Thursday</th>
-                    <th scope="col" class="peach-bg">Friday</th>
-                    <th scope="col" class="orange-bg">Saturday</th>
-                    <th scope="col" class="blue-bg">Sunday</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row" class="peach-bg">Breakfast</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row" class="orange-bg">Lunch</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row" class="blue-bg">Dinner</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-            
-            
-           </table>
+            <form id="mealForm">
+                <label for="title">Meal Title:</label>
+                <input type="text" id="title" name="title" required>
+                <button type="submit">Add Meal</button>
+            </form>
+
+      
            <button class="yellow-bg js-btn">Create Meal Plan</button>
         </section>
     </main>
